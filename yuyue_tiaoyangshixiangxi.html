@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>预约三养堂&mdash;&mdash;确认预约</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery1.42.min.js"></script>
+
+</head>
+
+<body>
+<div id="main">
+<!--标题-->
+  <div class="title">
+     <div class="title_img"><img src="images/close.jpg" /></div>
+     <div class="title_text">三养堂预约</div>
+  </div>
+<!--标题-->
+
+<!--主体内容-->  
+<script type="text/javascript">
+      $(function () {
+          $(".subNav").click(function () {
+              $(this).toggleClass("currentDd").siblings(".subNav").removeClass("currentDd")
+              $(this).toggleClass("currentDt").siblings(".subNav").removeClass("currentDt")
+
+              var diaplay = $(this).next().css("display");
+              if (diaplay == 'none') {
+                  // 修改数字控制速度， slideUp(500)控制卷起速度
+                  $(".navContent").slideUp(500);
+                  $(this).next(".navContent").slideToggle(500);
+                  $(".navContent").prev().html("+更多详细介绍+");
+                  $(this).html("－收起－");
+              } else {
+                  $(this).next(".navContent").slideToggle(500);
+                  $(this).html("+更多详细介绍+");
+              }
+
+          })
+      })
+</script>
+
+  <div class="box"> 
+   <div class="xiangxi_title">
+   <div class="xiangxi_title_left"><img src="images/touxiang.png"></div>
+   <div class="xiangxi_title_right">
+   <li class="black39">刘家钢</li>
+   <li><img src="images/dan.png"><span class="black24">1035订单</span>
+   <span class="orange14">四年工作经验</span>
+   </li>
+   <div> <!-- <span class="css_btn_red">力度：柔和</span> --><span class="css_btn_time">三养堂简介</span><span class="black12">对调养师的评论内容，文字的字体改小点</span></div>
+   </div>  
+   </div>
+   <!-- 
+   <div class="subNavBox"> 
+     <div class="subNav">+更多详细介绍+</div>         
+     <div class="navContent">5年工作经验长沙医学院针灸推拿专业，中医按摩专业资质8年。手法特点：刚柔有序，疏理性强。
+适宜：颈肩腰背痛等。</div>
+   </div> -->    
+   
+ </div><!--box end-->  
+   
+   <div class="xiangguan">相关项目</div>
+   
+   <div class="xg_xiangxi">
+     <div class="xg_xiangxi_left"><img src="images/xiangmu01.jpg"></div>
+     <div class="xg_xiangxi_center">
+       <div class="black38">循经推拿</div>
+       <div><img src="images/zhong.png"><span class="black16 ">60分钟</span><span class="orange16">￥198</span></div>
+       <div class="xg_xiangxi_right"><img src="images/yuyue.jpg">  </div>
+    </div>
+     
+   </div>
+   
+    <div class="xg_xiangxi">
+     <div class="xg_xiangxi_left"><img src="images/xiangmu01.jpg"></div>
+     <div class="xg_xiangxi_center">
+       <div class="black38">循经推拿</div>
+       <div><img src="images/zhong.png"><span class="black16 ">60分钟</span><span class="orange16">￥198</span></div>
+       <div class="xg_xiangxi_right"><img src="images/yuyue.jpg"></div>  
+    </div>
+     
+   </div>
+   
+    <div class="xg_xiangxi">
+     <div class="xg_xiangxi_left"><img src="images/xiangmu01.jpg"></div>
+     <div class="xg_xiangxi_center">
+       <div class="black38">循经推拿循经推拿</div>
+       <div><img src="images/zhong.png"><span class="black16 ">60分钟</span><span class="orange16">￥198</span></div>
+        <div class="xg_xiangxi_right"><img src="images/yuyue.jpg"></div>  
+    </div>
+    
+   </div>
+   
+<div class="pinglun">相关评论 </div>
+<div class="pinglun_text">
+<span class="orange16">评论人的名字或者手机号</span><br>
+<span class="black12">评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容</span>
+</div>
+
+<div class="pinglun_text">
+<span class="orange16">评论人的名字或者手机号</span><br>
+<span class="black12">评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容</span>
+</div>
+
+<div class="pinglun_more">
+点击查看更多
+</div>
+
+     <!--空DIV 给页脚留空间-->
+     <div class=" foot_top"></div>     
+     
+    
+   
+<!--页脚内容-->       
+   <div class="footer">
+        <li><span>预约三养堂</span></li>
+        <li>我的三养堂</li>
+        <li>更多……</li>
+        
+    </div>
+    
+</div>
+</body>
+</html>

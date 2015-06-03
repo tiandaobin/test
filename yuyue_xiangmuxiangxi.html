@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>预约三养堂&mdash;&mdash;按项目详细</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery1.42.min.js"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+      $(function () {
+          $(".css_btn_blue").click(function () {
+              $(this).toggleClass("currentDd").siblings(".css_btn_blue").removeClass("currentDd")
+              $(this).toggleClass("currentDt").siblings(".css_btn_blue").removeClass("currentDt")
+
+              var diaplay = $(this).next().css("display");
+              if (diaplay == 'none') {
+                  // 修改数字控制速度， slideUp(500)控制卷起速度
+                  $(".shuoming_navContent").slideUp(500);
+                  $(this).next(".shuoming_navContent").slideToggle(500);
+                  $(".shuoming_navContent").prev().html("服务介绍");
+                  $(this).html("收起介绍");
+              } else {
+                  $(this).next(".shuoming_navContent").slideToggle(500);
+                  $(this).html("服务介绍");
+              }
+
+          })
+      })
+</script>
+
+<script type="text/javascript">
+      $(function () {
+          $(".css_btn_red").click(function () {
+              $(this).toggleClass("currentDd").siblings(".css_btn_red").removeClass("currentDd")
+              $(this).toggleClass("currentDt").siblings(".css_btn_red").removeClass("currentDt")
+
+              var diaplay = $(this).next().css("display");
+              if (diaplay == 'none') {
+                  // 修改数字控制速度， slideUp(500)控制卷起速度
+                  $(".sm_navContent").slideUp(500);
+                  $(this).next(".sm_navContent").slideToggle(500);
+                  $(".sm_navContent").prev().html("禁忌说明");
+                  $(this).html("收起说明");
+              } else {
+                  $(this).next(".sm_navContent").slideToggle(500);
+                  $(this).html("禁忌说明");
+              }
+
+          })
+      })
+</script>
+
+<div id="main">
+<!--标题-->
+  <div class="title">
+     <div class="title_img"><img src="images/close.jpg" /></div>
+     <div class="title_text">三养堂预约</div>
+  </div>
+<!--标题-->
+<!--详细头-->
+   <div class="xiangxi_title">
+   <div class="xiangxi_title_left"><img src="images/0.jpg" width="320" height="150"></div>
+   <div class="xiangxi_title_right">
+   <p><span class="black38">循经推拿</span><span><img src="images/zhong.png"></span><span class="black24">60分钟</span></p>     
+    <div class="css_btn_blue">服务介绍</div> 
+    <div class="shuoming_navContent">5年工作经验长沙医学院针灸推拿专业，中医按摩专业资质8年。手法特点：刚柔有序，疏理性强。
+适宜：颈肩腰背痛等。</div>
+　　<div class="css_btn_red">禁忌说明</div>     
+    <div class="sm_navContent">5年工作经验长沙医学院针灸推拿专业，中医按摩专业资质8年。手法特点：刚柔有序，疏理性强。
+适宜：颈肩腰背痛等。</div>
+   </div>  
+  
+</div> 
+
+ <!--选择-->
+    <div class="xuanze">
+      <li><span class="xuanze_text">按价格</span><span class="xuanze_img"><img src="images/up.png"></span></li>
+      <li><span class="xuanze_text">按订单</span><span class="xuanze_img"><img src="images/up.png"></span></li>
+      <li><span class="xuanze_text">按等级</span><span class="xuanze_img"><img src="images/down.png"></span></li>
+    </div>  
+    
+
+ <!--调养师列表-->  
+    <div class="box"> 
+     <div class="xuanze_list">
+       <div class="xuanze_list_left">
+          <div><img src="images/touxiang.png"></div>
+          <div  class="css_btn_red xuanze_list_left_an" >力度柔和</div>
+       </div>
+       <div class="xuanze_list_right">
+          <div class="black39 xuanze_list_right_text">刘家刚</div>
+          <div style="padding-top:10px;"><img src="images/dan.png"><span class="black24 ">1035订单</span>         
+          <span class="orange14">四年工作经验</span>
+          
+          </div>
+          <div class="xuanze_yuyue"><img src="images/yuyue.jpg"></div>
+       </div>
+     </div>
+     
+     <div class="xuanze_list">
+       <div class="xuanze_list_left">
+          <div><img src="images/touxiang.png"></div>
+          <div  class="css_btn_red xuanze_list_left_an" >力度柔和</div>
+       </div>
+       <div class="xuanze_list_right">
+          <div class="black39 xuanze_list_right_text">刘家刚</div>
+          <div style="padding-top:10px;"><img src="images/dan.png"><span class="black24 ">1035订单</span>         
+          <span class="orange14">四年工作经验</span>
+          
+          </div>
+          <div class="xuanze_yuyue"><img src="images/yuyue.jpg"></div>
+       </div>
+     </div>
+     
+     <div class="xuanze_list">
+       <div class="xuanze_list_left">
+          <div><img src="images/touxiang.png"></div>
+          <div  class="css_btn_red xuanze_list_left_an" >力度柔和</div>
+       </div>
+       <div class="xuanze_list_right">
+          <div class="black39 xuanze_list_right_text">刘家刚</div>
+          <div style="padding-top:10px;"><img src="images/dan.png"><span class="black24 ">1035订单</span>         
+          <span class="orange14">四年工作经验</span>
+          
+          </div>
+          <div class="xuanze_yuyue"><img src="images/yuyue.jpg"></div>
+       </div>
+     </div>
+    
+     
+     
+     <!--空DIV 给页脚留空间-->
+     <div class=" foot_top"></div>
+     
+     </div>
+
+
+
+
+
+   
+  
+ <div class="footer">
+        <li><span>预约三养堂</span></li>
+        <li>我的三养堂</li>
+        <li>更多……</li>
+        
+    </div>
+  
+  
+    
+</div>
+</body>
+</html>
