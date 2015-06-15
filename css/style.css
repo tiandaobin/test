@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 body {
@@ -11,7 +11,8 @@ body {
 	background-size:100% auto;
 	margin:0px auto;
 	color:#3b3b3b;
-	font-size:1em;
+	font-size:16px;
+
 	
 }
 #main{max-width:640px; padding:0px; margin:0px auto; }
@@ -38,11 +39,11 @@ body {
 .box {width:96%; margin-left:2%;}
 .xiangmu{background-color:#fff; width:100%; height:90px; float:left; margin-top:8px;-moz-border-radius:6px;	-webkit-border-radius:6px;	border-radius:6px;}
 
-.xiangmu_left{padding-top:10px; float:left; padding-left:10px; }
+.xiangmu_left{padding-top:10px; float:left; padding-left:10px; padding-right:10px; }
 .xiangmu_left img{width:70px; height:70px;}
-.xiangmu_right{padding-top:5px; float:left; text-align:left; padding-left:10px; width:72%; position:relative;}
-.xiangmu_button {position: absolute;top: 20px;right: 3px;color: #985c20;height: 36px;line-height: 35px;padding: 0 10px;border: 1px solid #985c20;
-border-radius: 4px;background: #fff;}
+.xiangmu_right{padding-top:5px; text-align:left; position:relative;}
+.xiangmu_button {position: absolute;top: 20px;right: 10px;color: #fff;height: 36px;line-height: 35px;padding: 0 10px;
+border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background: #985c20;}
 
 
 
