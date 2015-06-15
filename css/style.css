@@ -70,7 +70,7 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 	padding:0 15px;
 	text-align:center;
 	text-decoration:none;	
-	background-color:#fff;
+	background-color:#ffffff;
 	color:#4f4f4f;
 	height:30px;
 	line-height:28px;
@@ -91,7 +91,7 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 	text-decoration:none;
 	height:30px;
 	line-height:28px;
-	background-color:#fff;
+	background-color:#ffffff;
 	color:#ff3333;
 	display:inline-block;
 	}
@@ -163,7 +163,7 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 	}
 .xuanze li{float:left; width:33%; line-height:50px; list-style-type:none;  display:block; cursor:pointer}
 .xuanze_text{ display:inline-block; float:left; padding-left:30%}
-.xuanze_img{padding-left:5px; padding-top:18px;display:inline-block; float:left;}
+.xuanze_img{padding-left:5px;display:inline-block; float:left;}
 .xuanze_img img{height:15px; width:auto}
 .xuanze_list{background-color:#fff; width:100%;float:left; margin-top:8px;-moz-border-radius:6px;	-webkit-border-radius:6px;	border-radius:6px;}
 .xuanze_list_left{float:left; width:100px; padding:2%;}
