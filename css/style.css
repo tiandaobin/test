@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 
 body {
@@ -11,8 +11,7 @@ body {
 	background-size:100% auto;
 	margin:0px auto;
 	color:#3b3b3b;
-	font-size:16px;
-
+	font-size:1em;
 	
 }
 #main{max-width:640px; padding:0px; margin:0px auto; }
@@ -43,9 +42,10 @@ body {
 .xiangmu_left img{width:70px; height:70px;}
 .xiangmu_right{padding-top:5px; text-align:left; position:relative;}
 .xiangmu_button {position: absolute;top: 20px;right: 10px;color: #fff;height: 36px;line-height: 35px;padding: 0 10px;
+border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background: #985c20; }
+
+.xiangmu_button1 {position: absolute;top: 0px;right: 10px;color: #fff;height: 36px;line-height: 35px;padding: 0 10px;
 border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background: #985c20;}
-
-
 
 
 .black38{font-size:16px; color:#333; padding-right:2%;}
@@ -60,44 +60,39 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 .orange16{font-size:1em; color:#ff814e;}
 .orange14{font-size:14px; color:#ff814e;}
 .css_btn_blue {    
-	font-size:1em;
+	font-size:14px;
 	font-family:Arial;
 	font-weight:normal;
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
 	border-radius:6px;
-	border:1px solid #8ecca9;
-	padding:1% 1%;
+	border:1px solid #4f4f4f;
+	padding:0 15px;
 	text-align:center;
-	text-decoration:none;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #8ecca9), color-stop(100%, #8ecca9) );
-	background:-moz-linear-gradient( center top, #8ecca9 5%, #8ecca9 100% );
-	background:-ms-linear-gradient( top, #8ecca9 5%, #8ecca9 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8ecca9', endColorstr='#8ecca9');
-	background-color:#8ecca9;
-	color:#ffffff;
-	display:inline-block;
-	text-shadow:1px 1px 50px #ffffff;
- 	-webkit-box-shadow:inset 1px 1px 0px 0px #8ecca9;
- 	-moz-box-shadow:inset 1px 1px 0px 0px #8ecca9;
- 	box-shadow:inset 1px 1px 0px 0px #8ecca9;}
+	text-decoration:none;	
+	background-color:#fff;
+	color:#4f4f4f;
+	height:30px;
+	line-height:28px;
+	}
 .css_btn_blue a:link{color:#fff; text-decoration:none;}
 .css_btn_blue a:active{color:#fff; text-decoration:none;}
 .css_btn_blue a:visited{color:#fff; text-decoration:none;}
 .css_btn_red {    
-	font-size:1em;
+	font-size:14px;
 	font-family:Arial;
 	font-weight:normal;
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
 	border-radius:6px;
 	border:1px solid #f58e96;
-	padding:1% 1%;
+	padding:0 15px;
 	text-align:center;
 	text-decoration:none;
-	
-	background-color:#f58e96;
-	color:#ffffff;
+	height:30px;
+	line-height:28px;
+	background-color:#fff;
+	color:#ff3333;
 	display:inline-block;
 	}
 .css_btn_red a:link{color:#fff; text-decoration:none;}
@@ -148,18 +143,35 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 .shuoming_navContent{padding:10px; display:none; font-size:0.8em; float:left}
 .sm_navContent{padding:10px; display:none; font-size:0.8em;  float:left}
 
-.xuanze{border-bottom:1px solid #CCC; border-top:1px solid #CCC; height:50px; width:100%; float:left}
+.xuanze{border-bottom:1px solid #985c20; border-top:1px solid #985c20; height:50px; width:100%; float:left}
+.css_btn_brown {    
+	font-size:12px;
+	font-family:Arial;
+	font-weight:normal;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #985c20;
+	padding:0 12px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	text-decoration:none;	
+	background-color:#fff;
+	color:#985c20;
+	display:inline-block;
+	}
 .xuanze li{float:left; width:33%; line-height:50px; list-style-type:none;  display:block; cursor:pointer}
 .xuanze_text{ display:inline-block; float:left; padding-left:30%}
 .xuanze_img{padding-left:5px; padding-top:18px;display:inline-block; float:left;}
 .xuanze_img img{height:15px; width:auto}
-.xuanze_list{background-color:#fff; width:100%; height:130px; float:left; margin-top:8px;-moz-border-radius:6px;	-webkit-border-radius:6px;	border-radius:6px;}
+.xuanze_list{background-color:#fff; width:100%;float:left; margin-top:8px;-moz-border-radius:6px;	-webkit-border-radius:6px;	border-radius:6px;}
 .xuanze_list_left{float:left; width:100px; padding:2%;}
-.xuanze_list_left img{width:80px; height:80px; padding-left:10px;-moz-border-radius:50px;	-webkit-border-radius:50px;	border-radius:50px; border:1px solid #fff;}
-.xuanze_list_left_an{ margin-top:5px; margin-left:11%; margin-right:11%; width:70%}
-.xuanze_list_right{float:left; display:inline-block; width:60%; }
+.xuanze_list_left img{width:80px; height:80px; -moz-border-radius:50px;-webkit-border-radius:50px;	border-radius:50px; border:1px solid #fff;}
+.xuanze_list_left_an{ margin-top:5px; margin-left:5px;}
+.xuanze_list_right{display:block; position:relative; }
 .xuanze_list_right img{ height:10px; width:auto;}
-.xuanze_yuyue{ width:30%; margin-top:18px; float:left  }
+.xuanze_yuyue{float:left  }
 .xuanze_yuyue img{height:30px; width:auto;}
 .xuanze_list_right_text{margin-top:10px; overflow:hidden; display:block;}
 .xuanze_list_right_text img{padding-right:5px;}
@@ -333,9 +345,9 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 	display:inline-block;
 	}
 .css_btn_time img{height:15px; width:auto; padding-top:3px; padding-left:3px; padding-right:7px;}
-.subNavBox{ background:#fff;  float:left; width:100%; border-top:1px solid #dfdfdf; font-size:1em;}
-.subNav{ text-align:center; color:#ff814e; line-height:50px;}
-.navContent{padding:5px 20px 10px 20px; display:none; font-size:0.8em; display:block}
+.subNavBox{ background:#fff;  float:left;  font-size:14px; width:63%;}
+.subNav{ text-align:left; color:#985c20; line-height:50px;}
+.navContent{padding:0; display:none; font-size:14px;}
 
 .pinglun{width:100%; background:#fff; margin-top:10px; float:left; height:50px;color:#985c20; line-height:50px; font-size:1em; text-align:center;}
 .pinglun_text{float:left; width:97%; background:#fff; min-height:20px; margin-top:10px; padding:10px; border-bottom:1px solid #dfdfdf;}
@@ -350,8 +362,7 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 .xg_xiangxi_right img{height:25px; width:auto;}
 
 
-.subNav{ text-align:center; color:#ff814e; line-height:50px;}
-.navContent{padding:5px 20px 10px 20px; display:none; font-size:0.8em;}
+
 
 
 .my_bg{float:left; width:100%; height:200px; background:url(../images/my_bg.jpg) no-repeat left top; color:#fff; margin-top:5px; }
