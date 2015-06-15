@@ -47,6 +47,8 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 .xiangmu_button1 {position: absolute;top: 0px;right: 10px;color: #fff;height: 36px;line-height: 35px;padding: 0 10px;
 border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background: #985c20;}
 
+.css_btn_jianjie{color: #fff;height: 20px;line-height: 20px;padding: 0 10px;
+border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background: #985c20;}
 
 .black38{font-size:16px; color:#333; padding-right:2%;}
 .black39{font-size:1.2em; color:#333;padding-right:5%;}
@@ -173,7 +175,7 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 .xuanze_list_right img{ height:10px; width:auto;}
 .xuanze_yuyue{float:left  }
 .xuanze_yuyue img{height:30px; width:auto;}
-.xuanze_list_right_text{margin-top:10px; overflow:hidden; display:block;}
+.xuanze_list_right_text{margin-top:10px; overflow:hidden; display:block; padding-bottom:5px; padding-right:5px; font-size:14px; color:#333}
 .xuanze_list_right_text img{padding-right:5px;}
 .foot_top{ width:100%; height:50px; float:left; margin-top:8px;}
 
@@ -347,7 +349,7 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 .css_btn_time img{height:15px; width:auto; padding-top:3px; padding-left:3px; padding-right:7px;}
 .subNavBox{ background:#fff;  float:left;  font-size:14px; width:63%;}
 .subNav{ text-align:left; color:#985c20; line-height:50px;}
-.navContent{padding:0; display:none; font-size:14px;}
+.navContent{padding-bottom:5px; display:none; font-size:14px;}
 
 .pinglun{width:100%; background:#fff; margin-top:10px; float:left; height:50px;color:#985c20; line-height:50px; font-size:1em; text-align:center;}
 .pinglun_text{float:left; width:97%; background:#fff; min-height:20px; margin-top:10px; padding:10px; border-bottom:1px solid #dfdfdf;}
