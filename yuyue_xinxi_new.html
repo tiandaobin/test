@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+<title>预约三养堂&mdash;&mdash;确认信息</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery1.42.min.js"></script>
+
+</head>
+
+<body>
+<div id="main">
+<!--标题-->
+  <div class="title">
+     <div class="title_img"><img src="images/close.jpg" /></div>
+     <div class="title_text">三养堂预约</div>
+  </div>
+<!--标题-->
+
+<!--主体内容-->  
+<script type="text/javascript">
+      $(function () {
+          $(".subNav").click(function () {
+              $(this).toggleClass("currentDd").siblings(".subNav").removeClass("currentDd")
+              $(this).toggleClass("currentDt").siblings(".subNav").removeClass("currentDt")
+
+              var diaplay = $(this).next().css("display");
+              if (diaplay == 'none') {
+                  // 修改数字控制速度， slideUp(500)控制卷起速度
+                  $(".navContent").slideUp(500);
+                  $(this).next(".navContent").slideToggle(500);
+                  $(".navContent").prev().html("+更多详细介绍+");
+                  $(this).html("－收起－");
+              } else {
+                  $(this).next(".navContent").slideToggle(500);
+                  $(this).html("+更多详细介绍+");
+              }
+
+          })
+      })
+</script>
+
+  <div class="box"> 
+   <div class="xiangxi_title">
+   <div class="xiangxi_title_left"><img src="images/xiangmu002.jpg"></div>
+   <div class="xiangxi_title_right">
+   <li class="black39"><span class="yuyue brown16">颈肩腰背推拿</span></li>
+   <li class="yuyue">价格：<span class="orange14">138</span>元/60分钟</li> 
+   <li class="yuyue">适宜：身体疲惫 疼痛 放松全身</li>  
+   </div>   
+ </div><!--box end-->  
+   
+  <!-- <div class="xiangguan"><span class="orange16">138</span>元/分钟</div>-->
+   
+ 
+   <div class="xinxi_input_new">
+   <ul>
+     <li>用&nbsp;&nbsp;户&nbsp;名&nbsp;&nbsp;<span>|</span><input name="用户名" type="text" placeholder="请输入用户名" >
+     </li>
+     <li>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址&nbsp;&nbsp;<span>|</span><input name="地址" type="text" placeholder="请输入地址">
+     </li>
+     <li>手&nbsp;&nbsp;机&nbsp;号&nbsp;&nbsp;<span>|</span><input name="手机号" type="text" placeholder="请输入绑定手机号" >
+     </li>     
+     <li>不适症状&nbsp;&nbsp;<span>|</span><select name="select" id="select"> 
+     <option>请选择您的不适症状</option>    
+    <option>不适症状一</option>
+    <option>不适症状二</option>
+    <option>不适症状三</option>
+       </select>
+       </li>
+   </ul>
+   </div>
+       
+   <div class="xinxi_input_new">
+   <ul>
+   <li>绑定手机&nbsp;&nbsp;<span>|</span><input name="手机号" type="text" placeholder="请输入手机号" >
+    <div class="xinxi_input_new_button">验证码</div>
+     </li>
+      <li>验&nbsp;&nbsp;证&nbsp;码&nbsp;&nbsp;<span>|</span><input name="手机号" type="text" placeholder="请输入验证码" >
+     </li>
+   </ul>
+   </div>  
+   <div class="xinxi_input_new">
+   <ul>
+   <li>服务时间&nbsp;&nbsp;<span>|</span><b class="xinxi_input_new_text">请选择预约服务时间</b>
+   </li>
+   </ul>
+   </div>
+   
+     <!--空DIV 给页脚留空间
+     <div class=" foot_top"></div> -->   
+     
+    
+   
+<!--页脚内容-->       
+   <div class="footer">
+        下一步
+    </div>
+    
+</div>
+</body>
+</html>
