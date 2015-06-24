@@ -41,7 +41,7 @@ body {
 .xiangmu_left{padding-top:10px; float:left; padding-left:10px; padding-right:10px; }
 .xiangmu_left img{width:70px; height:70px;}
 .xiangmu_right{padding-top:5px; text-align:left; position:relative;}
-.xiangmu_button {position: absolute;top: 20px;right: 10px;color: #fff;height: 36px;line-height: 35px;padding: 0 10px;
+.xiangmu_button {position: absolute;top: 10px;right: 10px;color: #fff;height: 36px;line-height: 35px;padding: 0 10px;
 border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background: #985c20; }
 
 .xiangmu_button1 {position: absolute;top: 0px;right: 10px;color: #fff;height: 36px;line-height: 35px;padding: 0 10px;
@@ -114,13 +114,14 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
     background-color: #985c20;
     color: #fff;
 	text-align: center;
-    font-size: 1em;
+    font-size: 14px;
     height: 45px;
 	line-height:45px;
 	clear:both;
 	margin:0 auto;
 	
 }
+.footer img{width:20px; height:20px; display:inline; padding-right:5px; position:absolute; top:13px; left:10px; }
 .footer li {
     float: left;
     width: 33%;
@@ -128,9 +129,10 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
     height: 45px;
     line-height: 45px;
     position:relative;
-	list-style-type:none
+	list-style-type:none;
+	display:inline;
 }	
-.footer li span{display:inline-block; background:#963; width:100%; height: 45px; line-height: 45px;}
+.footer li span{display:inline-block; background:#963; height: 45px; line-height: 45px; width:100%}
 .footer li a:hover{ background:#963;}
 .footer li .second{position:absolute;right:0;display:none; bottom:30px;}
 .footer li a{ color: #fff; text-decoration: none; display: block; float: left; height: 45px; line-height: 45px; background: #985c20; white-space: nowrap;width:100% }
@@ -177,7 +179,7 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 .xuanze_list_right img{ height:10px; width:auto;}
 .xuanze_yuyue{float:left  }
 .xuanze_yuyue img{height:30px; width:auto;}
-.xuanze_list_right_text{margin-top:10px; overflow:hidden; display:block; padding-bottom:5px; padding-right:5px; font-size:14px; color:#333}
+.xuanze_list_right_text{margin-top:10px; overflow:hidden; display:block;  padding-right:5px; font-size:14px; color:#333}
 .xuanze_list_right_text img{padding-right:5px;}
 .foot_top{ width:100%; height:50px; float:left; margin-top:8px;}
 
@@ -368,8 +370,8 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 .pinglun_text{float:left; width:97%; background:#fff; min-height:20px; margin-top:10px; padding:10px; border-bottom:1px solid #dfdfdf;}
 .pinglun_more{width:100%; height:50px; text-align:center; font-size:0.8em; background:#f4f4f4; float:left; display:block; line-height:50px; margin-top:5px;}
 .xiangguan{width:100%; float:left; background:#FFF; border-bottom:1px solid #dfdfdf; border-top:1px solid #dfdfdf; height:50px; line-height:50px; text-align:center; margin-top:10px; color:#985c20}
-.xg_xiangxi{float:left; width:100%; background:#fff; height:80px; margin-top:10px; position:relative;}
-.xg_xiangxi ul{padding:0px; margin-top:25px; font-size:14px; line-height:30px;}
+.xg_xiangxi{float:left; width:100%; background:#fff; height:60px; margin-top:10px; position:relative;}
+.xg_xiangxi ul{padding:0px; margin-top:15px; font-size:14px; line-height:30px;}
 .xg_xiangxi ul li{float:left; margin-right:10px; margin-left:5px; list-style-type:none;}
 .xg_xiangxi_left{float:left; padding:5px; width:30%;}
 .xg_xiangxi_left img{height:90px; width:90%;}
@@ -393,10 +395,19 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 .tys_left img{width:100px; height:100px;border-radius: 50px;-webkit-border-radius: 50px;-moz-border-radius: 50px; border:2px solid #fff;}
 .tys_right{float:left; padding-top:10px;line-height:35px;}
 
+.my_bg_new{float:left; width:100%; color:#333; position:relative; height:230px;}
+.my_left_new{float:left; text-align:center; position:absolute; left:50px; top:120px;}
+.my_left_new img{width:100px; height:100px;border-radius: 50px;-webkit-border-radius: 50px;-moz-border-radius: 50px; }
+.my_right_new{float:right;position:absolute; top:130px; right:30%; font-size:18px; color:#fff}
+.my_xinxi{ background-color:#fff}
+.my_xinxi img{width:auto; height:25px;}
+.my_xinxi ul{ font-size:16px; }
+.my_xinxi ul li{float:left; width:33%; text-align:center; list-style:none; line-height:30px;}
+.my_xinxi_kk{border-right:1px solid #dfdfdf;}
+.my_xinxi ul li span{ color:#985c20; font-size:18px;}
+.my_xinxi_tel{width:98%; clear:both; height:50px; background-color:#985c20; color:#fff; line-height:50px; padding-left:2%; font-size:16px}
 
-
-
-.my_list{float:left; width:100%;}
+.my_list{float:left; width:100%; margin-top:5px;}
 .my_list li{background:#fff; list-style-type:none; color:#333; margin-bottom:5px; height:50px; line-height:50px;}
 .my_list li span{ display:inline-block}
 .my_list img{width:auto; height:30px; padding:10px; float:left; display:inline-block}
