@@ -133,6 +133,7 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 	display:inline;
 }	
 .footer li span{display:inline-block; background:#963; height: 45px; line-height: 45px; width:100%}
+.footer li b{font-weight:normal; position:absolute; right:10px;}
 .footer li a:hover{ background:#963;}
 .footer li .second{position:absolute;right:0;display:none; bottom:30px;}
 .footer li a{ color: #fff; text-decoration: none; display: block; float: left; height: 45px; line-height: 45px; background: #985c20; white-space: nowrap;width:100% }
