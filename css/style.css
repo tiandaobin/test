@@ -121,7 +121,8 @@ border-radius: 6px;-moz-border-radius:6px;	-webkit-border-radius:6px;background:
 	margin:0 auto;
 	
 }
-.footer .aa{ display:inline-block; width:100%; background-image:url(../images/footer_01_new.png); background-repeat:no-repeat; background-position:0px;}
+.footer .aa{ display:inline-block; width:100%;  background-repeat:no-repeat; background-position:0px; vertical-align: middle;}
+.aa img{vertical-align: sub;}
 .footer .bb{ display:inline-block; width:100%; background-image:url(../images/footer_02_new.png);background-repeat:no-repeat; background-position:0px;}
 .footer .cc{ display:inline-block; width:100%; background-image:url(../images/footer_03_new.png);background-repeat:no-repeat; background-position:0px;}
 
