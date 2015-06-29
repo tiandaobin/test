@@ -1,59 +1,92 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>Ô¤Ô¼ÈıÑøÌÃ&mdash;&mdash;ÌîĞ´ÏêÏ¸ĞÅÏ¢</title>
+<meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+<title>é¢„çº¦ä¸‰å…»å ‚&mdash;&mdash;ç¡®è®¤é¢„çº¦</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery1.42.min.js"></script>
+
 </head>
 
 <body>
 <div id="main">
-<!--±êÌâ-->
+<!--æ ‡é¢˜
   <div class="title">
      <div class="title_img"><img src="images/close.jpg" /></div>
-     <div class="title_text">ÈıÑøÌÃÔ¤Ô¼</div>
+     <div class="title_text">ä¸‰å…»å ‚é¢„çº¦</div>
   </div>
-<!--±êÌâ-->
-<!--ÌáÊ¾Í·-->
-   <div class="time_head">
-   ÇëÌîĞ´ÄúÕæÊµµÄĞÅÏ¢£¬ÒÔ±ãÎªÄúÌá¹©¸üºÃµÄ·şÎñ
-   </div>
-<!--È·ÈÏ-->
-    <div class="queren">
-    <div class="css_btn_queren">ÄúÔ¤Ô¼µÄÊ±¼ä£º2015Äê4ÔÂ30ÈÕ 16£º00</div>
-    </div>
-<!--Ö÷ÌâÄÚÈİ-->  
-    <div class="box"> 
-       <div class="xinxi_input">
-       <div style="margin:0; padding:0">
-       <input name="ÓÃ»§Ãû" type="text" value="ÓÃ»§Ãû" onfocus="if (value =='ÓÃ»§Ãû'){value =''}" onblur="if (value ==''){value='ÓÃ»§Ãû'}" />
-       </div>
-       <div  style="margin:0; padding:0">
-       <input name="µØÖ·" type="text" value="µØÖ·" onfocus="if (value =='µØÖ·'){value =''}" onblur="if (value ==''){value='µØÖ·'}" />
-       </div>
-       <div  style="margin:0; padding:0">
-       <input name="ÊÖ»úºÅ" type="text" value="ÊÖ»úºÅ" onfocus="if (value =='ÊÖ»úºÅ'){value =''}" onblur="if (value ==''){value='ÊÖ»úºÅ'}" />
-       </div>  
-        <div  style="margin:0; padding:0">      
-       <select name="select" id="select">
-       <option>²»ÊÊÖ¢×´</option>
-    <option>²»ÊÊÖ¢×´Ò»</option>
-    <option>²»ÊÊÖ¢×´¶ş</option>
-    <option>²»ÊÊÖ¢×´Èı</option>
-       </select>
+-->
 
-       </div>   
-     </div>
-      
-     <!--¿ÕDIV ¸øÒ³½ÅÁô¿Õ¼ä-->
-     <div class=" foot_top"></div> 
-         
+<!--ä¸»ä½“å†…å®¹-->  
+<script type="text/javascript">
+      $(function () {
+          $(".subNav").click(function () {
+              $(this).toggleClass("currentDd").siblings(".subNav").removeClass("currentDd")
+              $(this).toggleClass("currentDt").siblings(".subNav").removeClass("currentDt")
+
+              var diaplay = $(this).next().css("display");
+              if (diaplay == 'none') {
+                  // ä¿®æ”¹æ•°å­—æ§åˆ¶é€Ÿåº¦ï¼Œ slideUp(500)æ§åˆ¶å·èµ·é€Ÿåº¦
+                  $(".navContent").slideUp(500);
+                  $(this).next(".navContent").slideToggle(500);
+                  $(".navContent").prev().html("+æ›´å¤šè¯¦ç»†ä»‹ç»+");
+                  $(this).html("ï¼æ”¶èµ·ï¼");
+              } else {
+                  $(this).next(".navContent").slideToggle(500);
+                  $(this).html("+æ›´å¤šè¯¦ç»†ä»‹ç»+");
+              }
+
+          })
+      })
+</script>
+
+  <div class="box"> 
+   <div class="xiangxi_title">
+   <div class="xiangxi_title_left"><img src="images/xiangmu002.jpg"></div>
+   <div class="xiangxi_title_right">
+   <li class="black39"><span class="yuyue brown16">é¢ˆè‚©è…°èƒŒæ¨æ‹¿</span></li>
+   <li class="yuyue">ä»·æ ¼ï¼š<span class="orange14">138</span>å…ƒ/60åˆ†é’Ÿ</li> 
+   <li class="yuyue">é€‚å®œï¼šèº«ä½“ç–²æƒ« ç–¼ç—› æ”¾æ¾å…¨èº«</li>  
    </div>   
+ </div><!--box end-->  
    
- <!--Ò³½Å--> 
-    <div class="footer">
-        ÏÂÒ»²½
+  <!-- <div class="xiangguan"><span class="orange16">138</span>å…ƒ/åˆ†é’Ÿ</div>-->
+   
+ 
+   <div class="xinxi_input_new">
+   <ul>
+   <li>åœ°&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;å€&nbsp;&nbsp;<span>|</span></span><div class="xinxi_input_new_text">è¯·é€‰æ‹©é¢„çº¦æœåŠ¡åœ°å€</div>
+     </li>
+     <!--<li>ç”¨&nbsp;&nbsp;æˆ·&nbsp;å&nbsp;&nbsp;<span>|</span><input name="ç”¨æˆ·å" type="text" placeholder="è¯·è¾“å…¥ç”¨æˆ·å" >
+     </li>
+     
+     <li>æ‰‹&nbsp;&nbsp;æœº&nbsp;å·&nbsp;&nbsp;<span>|</span><input name="æ‰‹æœºå·" type="text" placeholder="è¯·è¾“å…¥ç»‘å®šæ‰‹æœºå·" >
+     </li>-->     
+     <li>ä¸é€‚ç—‡çŠ¶&nbsp;&nbsp;<span>|</span><select name="select" id="select"> 
+     <option>è¯·é€‰æ‹©æ‚¨çš„ä¸é€‚ç—‡çŠ¶</option>    
+    <option>ä¸é€‚ç—‡çŠ¶ä¸€</option>
+    <option>ä¸é€‚ç—‡çŠ¶äºŒ</option>
+    <option>ä¸é€‚ç—‡çŠ¶ä¸‰</option>
+       </select>
+       </li>
+        <li>æœåŠ¡æ—¶é—´&nbsp;&nbsp;<span>|</span><div class="xinxi_input_new_text">è¯·é€‰æ‹©é¢„çº¦æœåŠ¡æ—¶é—´</div>
+   </ul>
+   </div>
+       
+   
+  
+   
+     <!--ç©ºDIV ç»™é¡µè„šç•™ç©ºé—´-->  
+     <div class=" foot_top"></div> 
+     
+    
+   
+<!--é¡µè„šå†…å®¹-->       
+   <div class="footer">
+        ä¸‹ä¸€æ­¥
     </div>
+    
 </div>
 </body>
 </html>
