@@ -603,7 +603,7 @@ padding: .6em; margin-left:2%; width:96%; font-size:16px;}
 .ceshi_left img{width:auto; height:20px; float:left; display:inline-block; padding-right:5px; padding-top:5px;}
 .ceshi_ti{font-size:16px;}
 .ceshi_ti ul{line-height:50px; border:1px solid #985c20; margin-top:25px; padding:0; height:50px;-moz-border-radius:6px;-webkit-border-radius:6px;	border-radius:6px;}
-.ceshi_ti ul li{width:19.74%; float:left; display:inline-block; text-align:center;}
+.ceshi_ti ul li{width:20%; float:left; display:inline-block; text-align:center; margin-right:-1px;}
 .ceshi_ti ul li a:link{color:#333; text-decoration:none;}
 .ceshi_ti_on1{color:#fff; background:#985c20; display:inline-block;border-top-left-radius:6px; border-bottom-left-radius:6px;}
 .ceshi_ti_on2{color:#fff; background:#985c20; display:inline-block;}
